@@ -1,5 +1,6 @@
 import React from "react";
 import Home from './pages/Home';
+import Term from './pages/Term'
 // import Login from './pages/Login';
 // import Todos from './pages/Todos';
 import {
@@ -26,7 +27,7 @@ export default function App() {
             <Todos />
           </Route> */}
           <Route path="/">
-            <Home />
+            <Term />
           </Route>
         </Switch>
       </div>
