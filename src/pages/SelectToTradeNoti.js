@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import './TradeList.scss'
-import HeaderLoggedIn from '../components/HeaderLoggedIn'
+import HeaderLoggedInNoti from '../components/HeaderLoggedInNoti'
 import ProductCard from '../components/ProductCard'
-class TradeList extends Component {
+class SelectToTrade extends Component {
     constructor(props) {
         super(props)
     }
@@ -10,8 +10,8 @@ class TradeList extends Component {
     render() {
         return (
             <div id="trade">
-                <HeaderLoggedIn />
-                <h1 className="head">แลกเปลี่ยน</h1>
+                <HeaderLoggedInNoti />
+                <h1 className="head">เลือกชุดที่จะแลกเปลี่ยน</h1>
                 <h2>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h2>
                 <form class="search">
                     <input type="text" placeholder="Search.." name="search" className="searchBox" />
@@ -22,14 +22,14 @@ class TradeList extends Component {
                         imgLink="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
                         name="Great shirt 1"
                         star={5}
-                        href="/tradedetail"
-
+                        href="/selecttotradenoti"
+                        
                     />
                     <ProductCard
                         imgLink="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
                         name="Great shirt 2"
                         star={4}
-                        href="/tradedetail"
+                        href="/selecttotradenoti"
                     />
                     <ProductCard />
                     <ProductCard />
@@ -51,5 +51,5 @@ class TradeList extends Component {
 
 }
 
-export default TradeList
+export default SelectToTrade
 

@@ -1,7 +1,7 @@
 import React from "react";
 import './Header.scss'
 
-class Header extends React.Component {
+class HeaderLoggedIn extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -19,7 +19,7 @@ class Header extends React.Component {
     render() {
         return (
             // Todo: fix responsive of header
-            <div id="header">
+            <div id="headerloggedin">
                 <nav className="navbar navbar-expand-lg navbar-light bg-light" >
                     <a className="navbar-brand" href="/" id="logo">
                         <img src="/logo.svg" width="150" height="30" className="d-inline-block align-top" alt="" />
@@ -36,7 +36,7 @@ class Header extends React.Component {
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    บริการ
+                                บริการ
                             </a>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a className="dropdown-item" href="#">Buy</a>
@@ -45,7 +45,10 @@ class Header extends React.Component {
                                 </div>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">เข้าระบบ | สมัครใช้งาน</a>
+                                <a className="nav-link" href="/selecttotradenoti">Notification</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href='#'>User</a>
                             </li>
                         </ul>
                     </div>
@@ -55,4 +58,4 @@ class Header extends React.Component {
     }
 }
 
-export default Header;
+export default HeaderLoggedIn;

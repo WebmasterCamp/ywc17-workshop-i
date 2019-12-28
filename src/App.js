@@ -5,6 +5,9 @@ import Customization from './pages/Customization';
 import RegisterForm from './pages/RegisterForm';
 import TradeList from './pages/TradeList'
 import TradeDetail from './pages/TradeDetail'
+import SelectToTrade from './pages/SelectToTrade'
+import SelectToTradeNoti from './pages/SelectToTradeNoti'
+import Notification from './pages/Notification'
 import {
   BrowserRouter as Router,
   Switch,
@@ -24,6 +27,9 @@ export default function App() {
           <Route path="/tradelist">
             <TradeList />
           </Route>
+          <Route path="/noti">
+            <Notification />
+          </Route>
           <Route path="/tradedetail">
             <TradeDetail />
           </Route>
@@ -33,6 +39,14 @@ export default function App() {
           <Route path="/register">
             <RegisterForm/>
           </Route>
+          <Route path="/selecttotrade">
+            <SelectToTrade/>
+          </Route>
+          
+          <Route path="/selecttotradenoti">
+            <SelectToTradeNoti/>
+          </Route>
+
           <Route path="/">
             <Home />
           </Route>
