@@ -10,6 +10,8 @@ import SelectToTradeNoti from './pages/SelectToTradeNoti'
 import Notification from './pages/Notification'
 import Content1 from './pages/Content1'
 import Content2 from './pages/Content2'
+import Content3 from './pages/Content3'
+import Content4 from './pages/Content4'
 import {
   BrowserRouter as Router,
   Switch,
@@ -53,6 +55,12 @@ export default function App() {
           </Route>
           <Route path="/content2">
             <Content2/>
+          </Route>
+          <Route path="/content3">
+            <Content3/>
+          </Route>
+          <Route path="/content4">
+            <Content4/>
           </Route>
           <Route path="/">
             <Home />
