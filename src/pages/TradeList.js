@@ -25,7 +25,6 @@ class TradeList extends Component {
                         name="Great shirt 1"
                         star={5}
                         href="/tradedetail"
-
                     />
                     <ProductCard
                         imgLink="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
@@ -33,11 +32,6 @@ class TradeList extends Component {
                         star={4}
                         href="/tradedetail"
                     />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
                     <ProductCard />
                     <ProductCard />
                     <ProductCard />
