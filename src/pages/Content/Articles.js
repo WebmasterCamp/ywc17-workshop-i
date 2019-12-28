@@ -18,7 +18,7 @@ class Articles extends React.Component {
                 <h1>บทความล่าสุด</h1>
                 <div className="cards">
                         <Card
-                            category={"Fasion"}
+                            category={"Fashion"}
                             title={"กระแส Eco-Fashion ผ่านมาแล้ว โปรดอย่าผ่านไป"}
                             subTitle={""}
                             description={""}
@@ -26,21 +26,21 @@ class Articles extends React.Component {
                             href={'/content1'}
                         />
                         <Card
-                            category={"Fasion"}
+                            category={"Fashion"}
                             title={"สายแฟตัวจริงต้องไม่พลาด! อัพเดทเทรน์แฟชั่นสุดปังปี 2020 สไตล์ไหนอิน ชิ้นไหนเอาท์"}
                             description={""}
                             imgLink={"/content-logo-2.jpg"}
                             href={'/content2'}
                         />
                         <Card
-                            category={"Fasion"}
+                            category={"Fashion"}
                             title={"ต้อนรับปี 2020 ด้วยแฟชั่นสี Classic Blue ที่ Pantone เลือกให้เป็นสีแห่งปี"}
                             description={""}
                             imgLink={"/content-logo-3.jpg"}
                             href={'/content3'}
                         />
                         <Card
-                            category={"Fasion"}
+                            category={"Fashion"}
                             title={"เสื้อผ้าเก่า ต่อชีวิตใหม่"}
                             description={""}
                             imgLink={"/content-logo-4.jpg"}

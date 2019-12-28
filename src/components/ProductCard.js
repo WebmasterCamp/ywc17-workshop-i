@@ -46,7 +46,7 @@ class ProductCard extends React.Component {
                                             {this.star(this.props.star)}
                                         </span>
                                         <span class="add-to-cart">
-                                            <span class="txt">See detail</span>
+                                            <span class="txt">ดูรายละเอียดเพิ่มเติม</span>
                                         </span>
                                     </a>
                                 </div>
