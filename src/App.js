@@ -1,6 +1,7 @@
 import React from "react";
 import Home from './pages/Home';
 import Term from './pages/Term';
+import RegisterForm from './pages/RegisterForm'
 import {
   BrowserRouter as Router,
   Switch,
