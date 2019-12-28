@@ -22,7 +22,9 @@ export default function App() {
           <Route path="/customization">
             <Customization />
           </Route>
-
+          <Route path="/registeration">
+            <RegisterForm/>
+          </Route>
           <Route path="/">
             <Home />
           </Route>
