@@ -9,7 +9,9 @@ class RegisterForm extends Component {
     render() {
         return (
             <div id="RegisterForm">
-                <div className="registration-left"></div>
+                <div className="registration-left">
+                    <img src="/Hd1.png"></img>
+                </div>
                 <div className="registration-right">
 
                     <div className="registration-box">
