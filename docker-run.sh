@@ -1,1 +1,0 @@
-docker run -d -p 3000:80 react-router:test
