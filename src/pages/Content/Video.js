@@ -15,22 +15,20 @@ class Videos extends React.Component {
     render() {
         return (
             <div id="videos">
-                <h1>videos</h1>
-                <div className="video">
-                    <iframe width="300" height="200" src="https://www.youtube.com/embed/8OuDiz3fzuA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h1>Programs</h1>
+                <div className="row">
+                    <div className="col-6">
+                        <div className="video">
+                            <iframe width="500" height="300" src="https://www.youtube.com/embed/8OuDiz3fzuA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                         </div>
+                    </div>
+                    <div className="col-6">
+                            <h1 className="title">Header</h1>
+                            <p>Lorem ahhahahahahhah</p>
+                            <button>More +</button>
+                        </div>  
+                    </div>
                 </div>
-                <div className="detailBox">
-                <div className="detail">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et magna non enim egestas pretium at eu erat. Duis quis mollis mauris. Duis ac aliquet lectus. Donec rhoncus ante volutpat diam luctus tristique. Phasellus tincidunt erat est, ac ultrices tortor maximus a. Morbi pulvinar magna porttitor nunc suscipit mollis. Aenean tortor libero, sagittis elementum posuere at, tincidunt ut turpis. Proin semper cursus diam, eget mollis orci mollis sit amet.
-                    </p>
-                </div>
-                <div className="seeAll">
-                    <button>ดูของWeekก่อนๆ</button>
-                </div>
-                </div>
-                
-            </div>
         )
     }
 }

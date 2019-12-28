@@ -4,6 +4,7 @@ import ImageSlider from '../components/ImageSlider'
 import SellingMenu from '../components/SellingMenu'
 import Content from '../pages/Content/Content'
 import Subheader from '../components/Subheader'
+import Footer from '../components/Footer'
 class Home extends React.Component {
     constructor(props) {
         super(props);
@@ -16,6 +17,7 @@ class Home extends React.Component {
                 <Subheader />
                 <SellingMenu />
                 <Content />
+                <Footer />
             </div>
         )
     }
