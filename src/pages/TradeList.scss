@@ -1,7 +1,44 @@
-#trade{
-    .cards{
+#trade {
+    .page{
+        text-align: center;
+    }
+    button {
+        background: #FFB441 0% 0% no-repeat padding-box;
+        border-radius: 15px;
+        opacity: 1;
+        width: 82px;
+        height: 29px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .cards {
         display: inline-flex;
         flex-flow: row wrap;
+        width: 100%;
+    }
+
+    .search {
+        display: flex;
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .searchBox {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        border-radius: 13px;
+        opacity: 1;
+        flex: 1;
+        text-align: center;
+        height: 48px;
         width: 100%;
     }
 }
