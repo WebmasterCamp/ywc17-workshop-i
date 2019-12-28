@@ -1,12 +1,13 @@
-<<<<<<< HEAD
 #tradeDetail{
+    height: 100%;
     .item {
         width: 388px;
         height: 509px;
         background: #FFFFFF;
-        box-shadow: 0px 3px 6px #00000029;
+        box-shadow: 0px 0px 6px #00000029;
         margin-left:48px;
         margin-top: 30px;
+        margin-bottom: 100px;
     }
 
     .product {
@@ -21,8 +22,44 @@
         margin-left: 30px;
     }
 
-=======
-#tradeDetail > img{
-    padding-left: 20px;
->>>>>>> 3dd6e3caab2c9b035c7e12e25e7957f0ad08913a
+    .productRank {
+        font-family: 'CSPraJad-Bold';
+        font-size: 20px;
+        margin-left: 45px;
+    }
+
+    button {
+        background-color: white;
+        box-shadow: 0px 0px 6px #00000029;
+        width: 250px;
+        height: 50px;
+        margin-top: 20px;
+        font-family: 'Prompt';
+        border-color: transparent;
+        transition: .2s;
+
+        &:hover {
+            background: #F9AC36;
+            border-color: #F9AC36;
+            border-width: 2px;
+            letter-spacing: 2px;
+            color: white;
+        }
+    }
+
+    .button-choose {
+        display: flex;
+        flex-flow: column;
+        margin-top: 15px;
+        margin-left: 45px;
+    }
+
+    .owner-detail {
+        margin-top: 35px;
+        font-family: 'Prompt-Medium';
+        font-size: 30px;
+        margin-left: 45px;
+
+    }
+
 }
