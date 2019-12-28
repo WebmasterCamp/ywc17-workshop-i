@@ -6,27 +6,28 @@ import 'pure-react-carousel/dist/react-carousel.es.css';
 class ImageSlider extends React.Component {
     render() {
         return(
-          <div width="200">
-               <CarouselProvider 
-            naturalSlideWidth={100}
-            naturalSlideHeight={150}
-            totalSlides={3}
-           interval ={1000}
-           isPlaying={true}
-          >
-            <Slider>
-              <Slide className="slide" index={0}>
-                  <img src="https://via.placeholder.com/150" />
-              </Slide>
-              <Slide index={1}>
-              <img src="https://via.placeholder.com/150" />
-              </Slide>
-              <Slide index={2}>
-              <img src="https://via.placeholder.com/150" />
-              </Slide>
-            </Slider>
-        
-          </CarouselProvider>
+          <div >
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" height="200" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="First slide" />
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" height="200"src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="Second slide" />
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" height="200" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="Third slide" />
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
           </div>
         )
     }
