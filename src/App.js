@@ -8,6 +8,7 @@ import TradeDetail from './pages/TradeDetail'
 import SelectToTrade from './pages/SelectToTrade'
 import SelectToTradeNoti from './pages/SelectToTradeNoti'
 import Notification from './pages/Notification'
+import Point from './pages/Point'
 import {
   BrowserRouter as Router,
   Switch,
@@ -47,6 +48,9 @@ export default function App() {
             <SelectToTradeNoti/>
           </Route>
 
+          <Route path="/point">
+              <Point />
+          </Route>
           <Route path="/">
             <Home />
           </Route>
