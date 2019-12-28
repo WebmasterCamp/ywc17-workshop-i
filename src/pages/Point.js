@@ -15,9 +15,10 @@ class Point extends React.Component {
 
     render() {
         return (
-          
+          <div>
+            <HeaderLoggedIn />
             <div className = "notification">
-                  <HeaderLoggedIn />
+                
                 <h2>คุณได้รับ 2 Points</h2>
                 <h3>ให้ดาวกับผู้แลกเปลี่ยน:</h3>
                 <BeautyStars
@@ -35,6 +36,8 @@ class Point extends React.Component {
                     </div>
                     <Footer />   
             </div>
+          </div>
+            
 
                     
 
