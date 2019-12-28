@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import './Notification.scss';
 import Footer from '../components/Footer'
-import Notification2 from "./Notification2";
 
-class Notification extends Component {
+class Notification2 extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -19,8 +18,8 @@ class Notification extends Component {
                     <h1>ยินดีด้วย การแลกเปลี่ยนสำเร็จ</h1>
                     <h3>คุณสามารถทำการจัดส่งสินค้าไปที่ ให้จัดส่งสินค้าไปที่</h3>
                     <h3> 62/5 ถ.ลาดพร้าว แขวงจอมพล เขตจุจักร กรุงเทพมหานคร 10900</h3>
-                    <a href="/noti2"><button className="btn btn-success" onClick={this.acceptProduct}>ส่งสินค้าแล้ว</button></a>
-                    <button className="btn  btn-secondary disabled">ได้รับสินค้า</button>
+                    <button className="btn  btn-secondary disabled" onClick={this.acceptProduct}>ส่งสินค้าแล้ว</button>
+                    <a href="point"><button className="btn btn-success">ได้รับสินค้า</button></a>
                 </div>
                
               <Footer/>
@@ -30,5 +29,4 @@ class Notification extends Component {
 
 }
 
-export default Notification
-
+export default Notification2

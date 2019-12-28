@@ -14,6 +14,8 @@ import Content2 from './pages/Content2'
 import Content3 from './pages/Content3'
 import Content4 from './pages/Content4'
 import Point from './pages/Point'
+import Notification2 from './pages/Notification2'
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -71,6 +73,9 @@ export default function App() {
           </Route>
           <Route path="/loggedin">
             <HomeLoggedIn />
+          </Route>
+          <Route path="/noti2">
+            <Notification2 />
           </Route>
           <Route path="/">
             <Home />
