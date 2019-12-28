@@ -1,3 +1,23 @@
 #tradeDetail{
-    
+    .item {
+        width: 388px;
+        height: 509px;
+        background: #FFFFFF;
+        box-shadow: 0px 3px 6px #00000029;
+        margin-left:48px;
+        margin-top: 30px;
+    }
+
+    .product {
+        display: flex;
+        flex-flow: row;
+    }
+
+    .productTitle {
+        font-family: 'Prompt-Medium';
+        font-size: 60px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
 }

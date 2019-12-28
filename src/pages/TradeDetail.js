@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './TradeList.scss'
+import './TradeDetail.scss'
 import ProductCard from '../components/ProductCard'
 import HeaderLoggedIn from '../components/HeaderLoggedIn'
 class TradeDetail extends Component {
@@ -12,20 +12,17 @@ class TradeDetail extends Component {
             <div id="tradeDetail">
                 <HeaderLoggedIn />
                 <div className="product">
-                    <img src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" />
-                    <div className='description'>
-                        <p className="productTitle">
-                            Title: test
-                   </p>
-                        <p className="productRank">
-                            Rank: A
-                   </p>
-                        <p className="productWarranty">
-                            Warranty: 5 Years
-                   </p>
+                    <div className = "item-img">
+                        <img className ="item" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" />
                     </div>
-                    <a href="/selecttotrade"><button>สนใจ Trade</button></a>
+
+                    <div className='description'>
+                        <p className="productTitle"> เสื้อยืดสกรีนลายภาษาอังกฤษ </p>
+                        <p className="productRank"> Rank: A </p>
+                        <p className="productWarranty"> Warranty: 5 Years</p>
+                        <a href="/selecttotrade"><button>สนใจ Trade</button></a>
                     <button>Chat</button>
+                    </div>
                 </div>
                 <div className='owner'>
                     <img src="" />
