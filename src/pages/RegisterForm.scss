@@ -1,0 +1,86 @@
+$brown : #382A1F;
+$yellow : #F9AC36;
+$cream : #F8ECEC;
+$green : #6C8685;
+$dark-green : #294F50;
+
+#RegisterForm {
+    height: 100%;
+}
+
+h1 {
+    color: $brown;
+    font-family: 'Prompt';
+}
+
+.registration-left {
+    background-color: $dark-green;
+    position: absolute;
+    height: 100%;
+    left: 0px;
+    width: 50%;
+}
+
+.registration-right {
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    right: 0px;
+    width: 50%;
+
+}
+
+.registration-box {
+    margin: 0 10%;
+    
+}
+
+.form-control {
+    justify-content: center;
+    background-color: transparent;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+    height: 25px;
+    font-size: 14px;
+    font-family: 'CSPraJad';
+    &:focus {border-color: $brown;}
+    color: $brown;
+}
+
+label {
+    font-size: .85rem;
+    color: $brown;
+    font-family: 'Prompt';
+    font-size: 16px;
+}
+
+form {
+    margin: 0% 10%;
+    margin-bottom: 5%;
+    
+}
+
+.btn {
+    margin: 20px;
+    padding : 10px 40px;
+    background-color: $yellow;
+    border-radius: 30em;
+    color: white;
+    border-color: $yellow;
+    border-width: 2px;
+    letter-spacing: 2px;
+    transition: .2s;
+    font-family: 'Prompt';
+    &:hover {
+        background: white;
+        border-color: $yellow;
+        border-width: 2px;
+        letter-spacing: 2px;
+        color: $yellow;
+    }
+}

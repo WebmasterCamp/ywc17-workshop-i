@@ -1,3 +1,10 @@
+@import "./styles/variables";
+@import "./styles/normalize";
+
+@import "./pages/Customization.scss";
+@import "./pages/RegisterForm.scss";
+@import "./pages/Term.scss";
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
