@@ -30,7 +30,14 @@ class TradeDetail extends Component {
                             <p className = "owner-detail">เจ้าของเสื้อผ้า</p>
                             <img src="" />
                             <p className = "productRank">Supakorn</p>
-                            <p className = "productRank">Score *****</p>
+                            <p className = "productRank">
+                                gi<span>
+                                <img src="/star.svg"></img>
+                                <img src="/star.svg"></img>
+                                <img src="/star.svg"></img>
+                                <img src="/star.svg"></img>
+                                <img src="/star.svg"></img>
+                            </span></p>
                         </div>
                     </div>
                 </div>

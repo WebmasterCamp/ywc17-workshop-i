@@ -15,7 +15,7 @@ class Content2 extends React.Component {
         return (
             <div className="content">
                 <HeaderLoggedIn />
-                <img src="/content-logo-1.jpg"></img>
+                <img src="/content-logo-2.jpg"></img>
                 <h1>สายแฟตัวจริงต้องไม่พลาด! อัพเดทเทรนด์แฟชั่นสุดปังปี 2020 สไตล์ไหนอิน ชิ้นไหนเอาท์</h1>
                 <div className="contentBody container">
                     <p>

@@ -40,8 +40,8 @@ class SelectToTrade extends Component {
                 
                 </div>
                 <div className="page">
-                    <button>ย้อนกลับ</button>
-                    <button>ถัดไป</button>
+                    <button className = "btn">ย้อนกลับ</button>
+                    <button className = "btn">ถัดไป</button>
                 </div>
                 <Footer />
             </div>

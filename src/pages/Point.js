@@ -2,6 +2,8 @@ import React from 'react';
 import Footer from '../components/Footer'
 import BeautyStars from 'beauty-stars';
 import './Point.scss'
+import HeaderLoggedIn from '../components/HeaderLoggedIn'
+
 class Point extends React.Component {
 
     constructor(props) {
@@ -13,7 +15,10 @@ class Point extends React.Component {
 
     render() {
         return (
+          <div>
+            <HeaderLoggedIn />
             <div className = "notification">
+                
                 <h2>คุณได้รับ 2 Points</h2>
                 <h3>ให้ดาวกับผู้แลกเปลี่ยน:</h3>
                 <BeautyStars
@@ -29,8 +34,11 @@ class Point extends React.Component {
                         <a href="/tradelist"><button className="btn">ย้อนกลับ</button></a>
                         <a href="/home"><button className="btn">กลับ่สู่หน้าหลัก</button></a>
                     </div>
-                    <Footer />   
+                    
             </div>
+            <Footer />   
+          </div>
+            
 
                     
 
