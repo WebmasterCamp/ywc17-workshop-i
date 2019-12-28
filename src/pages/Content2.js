@@ -15,7 +15,7 @@ class Content2 extends React.Component {
         return (
             <div className="content">
                 <HeaderLoggedIn />
-                <img src="/content-logo-1.jpg"></img>
+                <img src="/content-logo-2.jpg"></img>
                 <h1>กระแส Eco-Fashion ผ่านมาแล้ว โปรดอย่าผ่านไป</h1>
                 <div className="contentBody container">
                     <p>
