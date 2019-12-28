@@ -13,10 +13,9 @@ class SelectToTrade extends Component {
                 <HeaderLoggedIn />
                 <h1 className="head">เลือกชุดที่จะแลกเปลี่ยน</h1>
                 <h2>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h2>
-                <form class="search">
-                    <input type="text" placeholder="Search.." name="search" className="searchBox" />
-                    {/* <button type="submit"><i class="fa fa-search">Search</i></button> */}
-                </form>
+                <div class="md-form mt-0">
+                    <input class="form-control" type="text" placeholder="Search" aria-label="Search" />
+                </div>
                 <div className="cards">
                     <ProductCard
                         imgLink="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
@@ -40,8 +39,7 @@ class SelectToTrade extends Component {
                     <ProductCard />
                 </div>
                 <div className="page">
-                    <button>ย้อนกลับ</button>
-                    <button>ถัดไป</button>
+                    <button>ยืนยัน</button>
                 </div>
 
             </div>

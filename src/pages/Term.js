@@ -44,7 +44,7 @@ class Term extends Component {
                 </div>
 
                 <div className="d-flex flex-row justify-content-center">
-                    <button className="btn">ไปต่อ</button>
+                    <a href="/register"><button className="btn">ไปต่อ</button></a>
                 </div>
                 </div>     
             </div>

@@ -8,14 +8,6 @@ class Header extends React.Component {
 
         }
     }
-    componentDidMount() {
-        // firebase.auth().onAuthStateChanged(user => {
-        //     if (user) {
-        //         this.props.sessionAction(user.email)
-
-        //     }
-        // })
-    }
     render() {
         return (
             // Todo: fix responsive of header
@@ -45,7 +37,7 @@ class Header extends React.Component {
                                 </div>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">เข้าระบบ | สมัครใช้งาน</a>
+                                <a className="nav-link" href="/term">เข้าระบบ | สมัครใช้งาน</a>
                             </li>
                         </ul>
                     </div>
