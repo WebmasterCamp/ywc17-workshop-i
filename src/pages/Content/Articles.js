@@ -14,8 +14,8 @@ class Articles extends React.Component {
 
     render() {
         return (
-            <div id="articles">
-                <h1>Latest Articles</h1>
+            <div className = "articles" id="articles">
+                <h1>บทความล่าสุด</h1>
                 <div className="cards">
                         <Card
                             category={"Fasion"}
