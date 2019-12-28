@@ -43,8 +43,8 @@ class TradeList extends Component {
                     <ProductCard />
                 </div>
                 <div className="page">
-                    <button>ย้อนกลับ</button>
-                    <button>ถัดไป</button>
+                    <button className="btn btn-success">ย้อนกลับ</button>
+                    <button  className="btn btn-success">ถัดไป</button>
                 </div>
                 <Footer />
             </div>
