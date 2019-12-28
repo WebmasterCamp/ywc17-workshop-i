@@ -1,6 +1,7 @@
 import React from "react";
 import firebase from '../firebase';
 import Header from '../components/Header'
+import ImageSlider from '../components/ImageSlider'
 class Home extends React.Component {
     constructor(props) {
         super(props);
@@ -18,7 +19,10 @@ class Home extends React.Component {
     }
     render() {
         return (
-           <Header/>
+            <div>
+                     <Header/>
+                     <ImageSlider/>
+            </div>
         )
     }
 }
