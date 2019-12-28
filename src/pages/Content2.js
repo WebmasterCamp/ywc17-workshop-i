@@ -16,7 +16,7 @@ class Content2 extends React.Component {
             <div className="content">
                 <HeaderLoggedIn />
                 <img src="/content-logo-2.jpg"></img>
-                <h1>กระแส Eco-Fashion ผ่านมาแล้ว โปรดอย่าผ่านไป</h1>
+                <h1>สายแฟตัวจริงต้องไม่พลาด! อัพเดทเทรนด์แฟชั่นสุดปังปี 2020 สไตล์ไหนอิน ชิ้นไหนเอาท์</h1>
                 <div className="contentBody container">
                     <p>
                         1.ลายจุดสุดคิวท์
