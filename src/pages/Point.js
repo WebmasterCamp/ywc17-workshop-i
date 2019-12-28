@@ -25,8 +25,8 @@ class Point extends React.Component {
                     <textarea class="form-control" rows="5" id="comment"></textarea>
                     </div>
                     <div className="row">
-                        <button className="btn btn-success">ย้อนกลับ</button>
-                        <button className="btn btn-success">กลับ่สู่หน้าหลัก</button>
+                        <a href="/tradelist"><button className="btn btn-success">ย้อนกลับ</button></a>
+                        <a href="/home"><button className="btn btn-success">กลับ่สู่หน้าหลัก</button></a>
                     </div>
                     <Footer />   
             </div>
