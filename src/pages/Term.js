@@ -7,7 +7,7 @@ class Term extends Component {
 
     render() {
         return (
-            <div>
+            <div id="Term">
                 <h1 className="d-flex flex-row justify-content-center">Term and Condition</h1>
                 <div  className="d-flex flex-row justify-content-center">
                     <h1>Hello</h1>

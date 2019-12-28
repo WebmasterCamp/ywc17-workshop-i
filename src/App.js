@@ -1,7 +1,8 @@
 import React from "react";
 import Home from './pages/Home';
 import Term from './pages/Term';
-import RegisterForm from './pages/RegisterForm'
+import Customization from './pages/Customization';
+import RegisterForm from './pages/RegisterForm';
 import {
   BrowserRouter as Router,
   Switch,
@@ -15,10 +16,12 @@ export default function App() {
       <div>
         <Switch>
           
-          <Route path="/term">
+        <Route path="/term">
             <Term />
           </Route>
-          
+          <Route path="/customization">
+            <Customization />
+          </Route>
           <Route path="/registeration">
             <RegisterForm/>
           </Route>
