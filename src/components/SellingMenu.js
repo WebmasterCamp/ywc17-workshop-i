@@ -13,7 +13,9 @@ class SellingMenu extends React.Component {
                 <div className="d-flex flex-row justify-content-around">
                     <button className="btn btn-success">Buy</button>
                     <button className="btn btn-success">Rent</button>
-                    <button className="btn btn-success">Trade</button>
+                    <a href="/tradelist">
+                        <button className="btn btn-success">Trade</button>
+                    </a>
                 </div>
             </div>
         )

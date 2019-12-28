@@ -41,7 +41,7 @@ class ProductCard extends React.Component {
                                         <div class="h-bg-inner"></div>
                                     </div>
 
-                                    <a class="cart" href="#">
+                                    <a class="cart" href={this.props.href}>
                                         <span class="price">
                                             {this.star(this.props.star)}
                                         </span>

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import './TradeList.scss'
 import ProductCard from '../components/ProductCard'
-import HeaderWithSearch from '../components/HeaderWithSearch'
+import HeaderLoggedIn from '../components/HeaderLoggedIn'
 class TradeDetail extends Component {
     constructor(props) {
         super(props)
@@ -10,9 +10,9 @@ class TradeDetail extends Component {
     render() {
         return (
             <div id="tradeDetail">
-                <HeaderWithSearch />
+                <HeaderLoggedIn />
                 <div className="product">
-                    <img src="" />
+                    <img src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" />
                     <div className='description'>
                         <p className="productTitle">
                             Title: test
@@ -24,7 +24,7 @@ class TradeDetail extends Component {
                             Warranty: 5 Years
                    </p>
                     </div>
-                    <button>สนใจ Trade</button>
+                    <a href="/selecttotrade"><button>สนใจ Trade</button></a>
                     <button>Chat</button>
                 </div>
                 <div className='owner'>
@@ -33,7 +33,7 @@ class TradeDetail extends Component {
                     <p>Score *****</p>
                 </div>
                 <div className='Comment'>
-                    
+                    <p>Comment Review</p>
                 </div>
             </div>
         )
