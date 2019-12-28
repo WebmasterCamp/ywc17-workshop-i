@@ -14,7 +14,7 @@ class TradeDetail extends Component {
                 <HeaderLoggedIn />
                 <div className="product">
                     <div className = "item-img">
-                        <img className ="item" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" />
+                        <img className ="item" src="/rent/rent2.jpg" />
                     </div>
 
                     <div className='description'>
