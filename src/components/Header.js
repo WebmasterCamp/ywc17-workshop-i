@@ -26,12 +26,13 @@ class Header extends React.Component {
                         <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="" />
                         Out-Fit
                 </a>
+                
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navBarButton">
-                        <ul class="navbar-nav d-flex flex-row-reverse">
+                    <div class="collapse navbar-collapse d-flex justify-content-end" id="navBarButton">
+                        <ul class="navbar-nav d-flex flex-row align-items-end">
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Content</a>
                             </li>
@@ -42,7 +43,7 @@ class Header extends React.Component {
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="#">Buy</a>
                                     <a class="dropdown-item" href="#">Rent</a>
-                                    <div class="dropdown-item"></div>
+                                    {/* <div class="dropdown-item"></div> */}
                                     <a class="dropdown-item" href="#">Trade</a>
                                 </div>
                             </li>

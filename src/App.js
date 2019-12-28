@@ -1,8 +1,7 @@
 import React from "react";
 import Home from './pages/Home';
-import Term from './pages/Term'
-// import Login from './pages/Login';
-// import Todos from './pages/Todos';
+import Term from './pages/Term';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,20 +13,14 @@ export default function App() {
   return (
     <Router>
       <div>
-        {/* <h1 className="title">React-Router-Redux-Firebase-Axios-Sass-Docker-Travis</h1> */}
-            {/* <Link to="/">Home</Link>{'\u00A0'} */}
-            {/* <Link to="/login">Login</Link>{'\u00A0'}
-            <Link to="/todos">Todos</Link>{'\u00A0'} */}
-
         <Switch>
-          {/* <Route path="/login">
-            <Login />
-          </Route>
-          <Route path="/todos">
-            <Todos />
-          </Route> */}
-          <Route path="/">
+          
+          <Route path="/term">
             <Term />
+          </Route>
+          
+          <Route path="/">
+            <Home />
           </Route>
         </Switch>
       </div>
