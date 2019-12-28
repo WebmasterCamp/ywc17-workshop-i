@@ -18,6 +18,7 @@ class Header extends React.Component {
     }
     render() {
         return (
+            // Todo: fix responsive of header
             <div id="Header">
                 <nav className="navbar navbar-expand-lg navbar-light bg-light" >
                     <a className="navbar-brand" href="#" id="logo">
@@ -30,7 +31,7 @@ class Header extends React.Component {
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
-                    <div className="collapse navbar-collapse d-flex justify-content-end" id="navBarButton">
+                    <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
                         <ul className="navbar-nav d-flex flex-row align-items-end">
                             <li className="nav-item">
                                 <a className="nav-link" href="#">Content</a>

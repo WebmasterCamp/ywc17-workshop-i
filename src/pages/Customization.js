@@ -21,10 +21,10 @@ class Customization extends React.Component {
             "good",
         ]
         return (
-            <div id="Customization">
+            <div id="customization">
                 <h1 className="head">Customization</h1>
                 <div className="h-divider" />
-                <div id="Selector">
+                <div id="selector">
                     {selections.map(selection => {
                         return <div className="selection"><a href="#" >{selection}</a>{'\u00A0'}</div>
                     })}
