@@ -2,6 +2,7 @@ import React from "react";
 import Header from '../components/Header'
 import ImageSlider from '../components/ImageSlider'
 import SellingMenu from '../components/SellingMenu'
+import Content from '../pages/Content/Content'
 class Home extends React.Component {
     constructor(props) {
         super(props);
@@ -9,20 +10,13 @@ class Home extends React.Component {
 
         }
     }
-    componentDidMount() {
-        // firebase.auth().onAuthStateChanged(user => {
-        //     if (user) {
-        //         this.props.sessionAction(user.email)
-
-        //     }
-        // })
-    }
     render() {
         return (
-            <div>
-                     <Header/>
-                     <ImageSlider/>
-                     <SellingMenu />
+            <div id="home">
+                <Header />
+                <ImageSlider />
+                <SellingMenu />
+                <Content />
             </div>
         )
     }
