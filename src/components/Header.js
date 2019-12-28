@@ -19,7 +19,7 @@ class Header extends React.Component {
     render() {
         return (
             // Todo: fix responsive of header
-            <div id="Header">
+            <div id="header">
                 <nav className="navbar navbar-expand-lg navbar-light bg-light" >
                     <a className="navbar-brand" href="#" id="logo">
                         {/* Logo Image */}

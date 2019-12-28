@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import './TradeList.scss'
-import Header from '../components/Header'
+import HeaderWithSearch from '../components/HeaderWithSearch'
 import ProductCard from '../components/ProductCard'
 class TradeList extends Component {
     constructor(props) {
@@ -10,7 +10,7 @@ class TradeList extends Component {
     render() {
         return (
             <div id="trade">
-                <Header />
+                <HeaderWithSearch />
                 <h1 className="head">Trade</h1>
                 <div className="h-divider" />
                 <form class="search">

@@ -1,7 +1,7 @@
 import React from "react";
-import './Header.scss'
+import './HeaderWithSearch.scss'
 
-class Header extends React.Component {
+class HeaderWithSearch extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -9,17 +9,11 @@ class Header extends React.Component {
         }
     }
     componentDidMount() {
-        // firebase.auth().onAuthStateChanged(user => {
-        //     if (user) {
-        //         this.props.sessionAction(user.email)
-
-        //     }
-        // })
     }
     render() {
         return (
             // Todo: add search
-            <div id="Header">
+            <div id="headerwithSearch">
                 <nav className="navbar navbar-expand-lg navbar-light bg-light" >
                     <a className="navbar-brand" href="#" id="logo">
                         {/* Logo Image */}
@@ -58,4 +52,4 @@ class Header extends React.Component {
     }
 }
 
-export default Header;
+export default HeaderWithSearch;
