@@ -54,7 +54,7 @@ class RegisterForm extends Component {
                         </form>
                     
                         <div className="d-flex flex-row justify-content-center">
-                            <button className="btn">ยืนยัน</button>
+                            <a href=""><button className="btn">ยืนยัน</button></a>
                         </div>
                     </div>
                 </div>
