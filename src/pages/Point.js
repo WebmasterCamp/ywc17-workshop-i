@@ -5,7 +5,6 @@ class Point extends React.Component {
         return (
             <div>
                 <h1>ได้รับการแลกเปลี่ยนเรียบร้อย</h1>
-
                 <Footer />
             </div>
         )
