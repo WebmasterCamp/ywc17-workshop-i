@@ -1,5 +1,5 @@
 import React from 'react'
-import { CarouselProvider, Slider, Slide,Dot} from 'pure-react-carousel';
+import './ImageSlider.scss'
 import 'pure-react-carousel/dist/react-carousel.es.css';
 
 
@@ -10,13 +10,13 @@ class ImageSlider extends React.Component {
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block " height="700" src="/outfit-buy-1.png" alt="First slide" />
+                    <img class="d-block " height="700" src="/Hd1.png" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block" height="700"src="/outfit-buy-2.png" alt="Second slide" />
+                    <img class="d-block" height="700"src="/Hd2.png" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block" height="700" src="/outfit-buy-3.png" alt="Third slide" />
+                    <img class="d-block" height="700" src="/Hd3.png" alt="Third slide" />
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
