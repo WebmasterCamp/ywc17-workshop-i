@@ -7,44 +7,44 @@ class RegisterForm extends Component {
 
     render() {
         return (
-            <div id="RegisterForm">
+            <div id="registerform">
                 <h1 className="d-flex flex-row justify-content-center">Registeration</h1>
-                <form>
+                <form className="container">
                     <div className="form-group">
                         <label for="exampleInputEmail1">Name</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />    
+                        <input type="text" className="form-control" placeholder="Name" />    
                     </div>
                     <div className="form-group">
                         <label for="exampleInputEmail1">Surname</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />    
+                        <input type="text" className="form-control" placeholder="Surname" />    
                     </div>
                     <div className="form-group">
                         <label for="exampleInputEmail1">User Name</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />    
+                        <input type="text" className="form-control" placeholder="User Name" />    
                     </div>
                     <div className="form-group">
                         <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />    
+                        <input type="email" className="form-control"  placeholder="Email" />    
                     </div>
                     <div className="form-group">
                         <label for="exampleInputEmail1">Password</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />    
+                        <input type="password" className="form-control"  placeholder="password" />    
                     </div>
                     <div className="form-group">
                         <label for="exampleInputEmail1">Confirm Password</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />    
+                        <input type="password" className="form-control" placeholder="confirm password" />    
                     </div>
                     <div className="form-group">
                         <label for="exampleInputEmail1">Date Of Birth </label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />    
+                        <input type="date" className="form-control" placeholder="Date of Birth" />    
                     </div>
                     <div className="form-group">
                         <label for="exampleInputEmail1">Phone number</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />    
+                        <input type="tel" className="form-control" placeholder="phone number" />    
                     </div>
                     <div className="form-group">
                         <label for="exampleInputEmail1">Address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />    
+                        <input type="text" className="form-control"  placeholder="Address" />    
                     </div>
                 </form>
                 <div className="d-flex flex-row justify-content-center">
