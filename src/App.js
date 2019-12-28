@@ -1,5 +1,6 @@
 import React from "react";
 import Home from './pages/Home';
+import HomeLoggedIn from './pages/HomeLoggedIn';
 import Term from './pages/Term';
 import Customization from './pages/Customization';
 import RegisterForm from './pages/RegisterForm';
@@ -51,7 +52,7 @@ export default function App() {
           <Route path="/selecttotradenoti">
             <SelectToTradeNoti />
           </Route>
-          
+
           <Route path="/content1">
             <Content1 />
           </Route>
@@ -67,6 +68,9 @@ export default function App() {
 
           <Route path="/point">
             <Point />
+          </Route>
+          <Route path="/loggedin">
+            <HomeLoggedIn />
           </Route>
           <Route path="/">
             <Home />
