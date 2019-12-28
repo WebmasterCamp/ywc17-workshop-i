@@ -13,7 +13,7 @@ class Header extends React.Component {
             // Todo: fix responsive of header
             <div id="header">
                 <nav className="navbar navbar-expand-lg navbar-light bg-light" >
-                    <a className="navbar-brand" href="/" id="logo">
+                    <a className="navbar-brand" href="/loggedin" id="logo">
                         <img src="/logo.svg" width="150" height="30" className="d-inline-block align-top" alt="" />
                 </a>
                 
