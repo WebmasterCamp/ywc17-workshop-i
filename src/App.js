@@ -1,6 +1,7 @@
 import React from "react";
 import Home from './pages/Home';
-import Term from './pages/Term'
+import Term from './pages/Term';
+import RegisterForm from './pages/RegisterForm'
 // import Login from './pages/Login';
 // import Todos from './pages/Todos';
 import {
@@ -26,6 +27,9 @@ export default function App() {
           <Route path="/todos">
             <Todos />
           </Route> */}
+          <Route path="/">
+            <RegisterForm/>
+          </Route>
           <Route path="/">
             <Term />
           </Route>
