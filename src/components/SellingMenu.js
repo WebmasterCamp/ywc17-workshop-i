@@ -10,11 +10,12 @@ class SellingMenu extends React.Component {
     render() {
         return (
             <div id="Header">
-                <div className="d-flex flex-row justify-content-around">
-                    <button className="btn btn-success">Buy</button>
-                    <button className="btn btn-success">Rent</button>
+                <p className = "what-looking">คุณกำลังมองหาอะไร</p>
+                <div className="choice-btn">
+                    <button className="option-btn">Buy</button>
+                    <button className="option-btn">Rent</button>
                     <a href="/tradelist">
-                        <button className="btn btn-success">Trade</button>
+                        <button className="option-btn">Trade</button>
                     </a>
                 </div>
             </div>

@@ -1,3 +1,56 @@
 #subheader {
+   display: flex;
+   flex-flow: column;
+   align-items: center;
    background-color: #F9AC36;
+   justify-content: center;
+   height: relative;
+
+   img {
+      margin-top: 5%;
+      margin-bottom: 20px;
+   }
+   
+   .catch-phrase {
+      margin: 0% 10%;
+      margin-bottom: 5%;
+      font-family: 'Prompt-Medium';
+      font-size: 28px;
+      text-align: center;
+   }
+}
+
+.what-looking {
+   font-family: 'Prompt-Medium';
+   font-size: 24px;
+   text-align: center;
+   margin-top: 80px;
+   margin-bottom: 20px;
+}
+
+.choice-btn {
+   display: flex;
+   flex-flow: row;
+   align-items: center;
+   margin-left: auto;
+   margin-right: auto;
+   justify-content: center;
+}
+
+.option-btn {
+   top: 1146px;
+   left: 130px;
+   width: 339px;
+   height: 89px;
+   background: #FF8066;
+   box-shadow: 0px 3px 6px #00000029;
+   border-radius: 52px;
+
+   text-align: left;
+   font-family: 'Prompt-Medium';
+   letter-spacing: 0;
+   color: #000000;
+   text-align: center;
+   font-size: 28px;
+   padding: 20px;
 }
