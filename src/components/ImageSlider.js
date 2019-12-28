@@ -6,7 +6,8 @@ import 'pure-react-carousel/dist/react-carousel.es.css';
 class ImageSlider extends React.Component {
     render() {
         return(
-            <CarouselProvider 
+          <div width="200">
+               <CarouselProvider 
             naturalSlideWidth={100}
             naturalSlideHeight={150}
             totalSlides={3}
@@ -26,6 +27,7 @@ class ImageSlider extends React.Component {
             </Slider>
         
           </CarouselProvider>
+          </div>
         )
     }
 }
