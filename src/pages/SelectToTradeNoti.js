@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import './TradeList.scss'
 import HeaderLoggedInNoti from '../components/HeaderLoggedInNoti'
 import ProductCard from '../components/ProductCard'
+import Footer from '../components/Footer'
+
 class SelectToTrade extends Component {
     constructor(props) {
         super(props)
@@ -43,7 +45,7 @@ class SelectToTrade extends Component {
                     <button>ย้อนกลับ</button>
                     <button>ถัดไป</button>
                 </div>
-
+                <Footer />
             </div>
         )
     }

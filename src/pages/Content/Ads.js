@@ -9,7 +9,7 @@ class Ads extends React.Component {
     render() {
         return (
             <div className="container">
-               <img src="/ads_01.jpg" id="ads"/>
+               <img src="/ads_01.png" id="ads"/>
             </div>
         )
     }
