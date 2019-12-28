@@ -1,6 +1,7 @@
 import React from "react";
 import Home from './pages/Home';
 import Term from './pages/Term';
+import Customization from './pages/Customization';
 
 import {
   BrowserRouter as Router,
@@ -15,10 +16,13 @@ export default function App() {
       <div>
         <Switch>
           
-          <Route path="/term">
+        <Route path="/term">
             <Term />
           </Route>
-          
+          <Route path="/customization">
+            <Customization />
+          </Route>
+
           <Route path="/">
             <Home />
           </Route>

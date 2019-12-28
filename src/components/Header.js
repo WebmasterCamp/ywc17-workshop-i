@@ -19,7 +19,7 @@ class Header extends React.Component {
     }
     render() {
         return (
-            <div id="nav">
+            <div id="Header">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light" >
                     <a class="navbar-brand" href="#" id="logo">
                         {/* Logo Image */}
