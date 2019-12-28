@@ -34,14 +34,14 @@ class Articles extends React.Component {
                         />
                         <Card
                             category={"Fashion"}
-                            title={"สายแฟตัวจริงต้องไม่พลาด! อัพเดทเทรน์แฟชั่นสุดปังปี 2020 สไตล์ไหนอิน ชิ้นไหนเอาท์"}
+                            title={"ต้อนรับปี 2020 ด้วยแฟชั่นสี Classic Blue ที่ Pantone เลือกให้เป็นสีแห่งปี"}
                             description={""}
                             imgLink={"/content-logo-3.jpg"}
                             href={'/content3'}
                         />
                         <Card
                             category={"Fashion"}
-                            title={"สายแฟตัวจริงต้องไม่พลาด! อัพเดทเทรน์แฟชั่นสุดปังปี 2020 สไตล์ไหนอิน ชิ้นไหนเอาท์"}
+                            title={"เสื้อผ้าเก่า ต่อชีวิตใหม่"}
                             description={""}
                             imgLink={"/content-logo-4.jpg"}
                             href={'/content4'}

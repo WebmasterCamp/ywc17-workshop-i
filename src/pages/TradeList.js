@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import './TradeList.scss'
 import HeaderLoggedIn from '../components/HeaderLoggedIn'
 import ProductCard from '../components/ProductCard'
+import Footer from '../components/Footer'
+
+
 class TradeList extends Component {
     constructor(props) {
         super(props)
@@ -43,7 +46,7 @@ class TradeList extends Component {
                     <button className ="btn">ย้อนกลับ</button>
                     <button className ="btn">ถัดไป</button>
                 </div>
-
+                <Footer />
             </div>
         )
     }

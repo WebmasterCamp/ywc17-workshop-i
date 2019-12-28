@@ -4,18 +4,12 @@ import './Ads.scss';
 class Ads extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {
-
-        }
-    }
-    componentDidMount() {
-
     }
 
     render() {
         return (
-            <div id="ads">
-                <h1>ads</h1>
+            <div className="container">
+               <img src="/ads_01.png" id="ads"/>
             </div>
         )
     }
