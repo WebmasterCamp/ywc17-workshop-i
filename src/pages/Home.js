@@ -1,5 +1,4 @@
 import React from "react";
-import logo from '../static/logo192.png'
 import firebase from '../firebase';
 
 class Home extends React.Component {
