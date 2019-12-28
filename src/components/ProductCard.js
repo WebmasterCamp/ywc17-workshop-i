@@ -10,13 +10,45 @@ class ProductCard extends React.Component {
 
         }
     }
+
     star(number) {
-        let star = ""
-        for (var i = 0; i < number; i++) {
-            star = star + '*'
+        if (number === 1) {
+            return <div>
+                <img src="star.svg"></img>
+            </div>
         }
-        return star
+        if (number === 2) {
+            return <div>
+                <img src="star.svg"></img>
+                <img src="star.svg"></img>
+            </div>
+        }
+        if (number === 3) {
+            return <div>
+                <img src="star.svg"></img>
+                <img src="star.svg"></img>
+                <img src="star.svg"></img>
+            </div>
+        }
+        if (number === 4) {
+            return <div>
+                <img src="star.svg"></img>
+                <img src="star.svg"></img>
+                <img src="star.svg"></img>
+                <img src="star.svg"></img>
+            </div>
+        }
+        if (number === 5) {
+            return <div>
+                <img src="star.svg"></img>
+                <img src="star.svg"></img>
+                <img src="star.svg"></img>
+                <img src="star.svg"></img>
+                <img src="star.svg"></img>
+            </div>
+        }
     }
+    
     render() {
         return (
 

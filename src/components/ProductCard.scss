@@ -75,13 +75,13 @@
       left: 50%;
     }
     
-    .el-wrapper:hover .img {
-      -o-filter: blur(7px);
-      -ms-filter: blur(7px);
-      filter: blur(7px);
-      filter: progid:DXImageTransform.Microsoft.Blur(pixelradius='7', shadowopacity='0.0');
-      opacity: 0.4;
-    }
+    // .el-wrapper:hover .img {
+    //   -o-filter: blur(7px);
+    //   -ms-filter: blur(7px);
+    //   filter: blur(7px);
+    //   filter: progid:DXImageTransform.Microsoft.Blur(pixelradius='7', shadowopacity='0.0');
+    //   opacity: 0.4;
+    // }
     
     .el-wrapper:hover .info-inner {
       bottom: 155px;

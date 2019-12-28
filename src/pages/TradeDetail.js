@@ -1,4 +1,8 @@
 import React, { Component } from "react";
+<<<<<<< HEAD
+=======
+import './TradeDetail.scss'
+>>>>>>> 286145c5c0c1554857efbded243f7a455aab4d11
 import './TradeList.scss'
 import HeaderLoggedIn from '../components/HeaderLoggedIn'
 import Footer from '../components/Footer'
