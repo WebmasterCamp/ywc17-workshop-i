@@ -33,6 +33,7 @@ class SelectToTrade extends Component {
                     />
                     <ProductCard />
                     <ProductCard />
+                    <ProductCard />
                 </div>
                 <div className="page">
                     <button>ยืนยัน</button>

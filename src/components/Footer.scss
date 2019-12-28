@@ -1,3 +1,19 @@
 .footer {
     background-color: #F9AC36;
+    height: 220px;
+
+    img {
+        margin-top: 10px;
+    }
+
+    p {
+        margin: 15px 30px;
+        font-family: 'Prompt-Medium';
+        font-size: 16px;
+    }
+
+    .description {
+        font-family: 'Prompt';
+        margin-top: 10px;
+    }
 }

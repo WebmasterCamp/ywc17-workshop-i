@@ -25,7 +25,6 @@ class TradeList extends Component {
                         name="Great shirt 1"
                         star={5}
                         href="/tradedetail"
-
                     />
                     <ProductCard
                         imgLink="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
@@ -36,15 +35,10 @@ class TradeList extends Component {
                     <ProductCard />
                     <ProductCard />
                     <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
                 </div>
                 <div className="page">
-                    <button className="btn btn-success">ย้อนกลับ</button>
-                    <button  className="btn btn-success">ถัดไป</button>
+                    <button className ="btn">ย้อนกลับ</button>
+                    <button className ="btn">ถัดไป</button>
                 </div>
                 <Footer />
             </div>

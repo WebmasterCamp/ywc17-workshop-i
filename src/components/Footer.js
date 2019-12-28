@@ -20,7 +20,7 @@ class Header extends React.Component {
                    <p>Articles</p>
                </div>
                <div className="row justify-content-center">
-                   <p>Lorem Ipsum is simply dummy text of the printing ssages, and more re</p>
+                   <p className = "description">OUT-FIT คือเว็บไซต์ที่สนับสนุนให้ทุกคนนำเสื้อผ้าที่ใช้แล้ว มาใช้ซ้ำอย่างคุ้มค่าด้วยการขายต่อ เช่า แลกเปลี่ยน และบริจาค เพื่อยืดวงจรการใช้งานเสื้อผ้าให้เต็มประสิทธิภาพ ลดปัญหาขยะแฟชั่น ให้การแต่งตัวเป็นเรื่องสนุก โดยไม่ต้องทำร้ายโลก</p>
              </div>
             </div>
         )
