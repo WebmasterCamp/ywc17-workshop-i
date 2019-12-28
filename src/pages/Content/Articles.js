@@ -27,7 +27,7 @@ class Articles extends React.Component {
                         />
                         <Card
                             category={"Fashion"}
-                            title={"สายแฟตัวจริงต้องไม่พลาด! อัพเดทเทรน์แฟชั่นสุดปังปี 2020 สไตล์ไหนอิน ชิ้นไหนเอาท์"}
+                            title={"สายแฟตัวจริงต้องไม่พลาด! อัพเดทเทรนด์แฟชั่นสุดปังปี 2020 สไตล์ไหนอิน ชิ้นไหนเอาท์"}
                             description={""}
                             imgLink={"/content-logo-2.jpg"}
                             href={'/content2'}

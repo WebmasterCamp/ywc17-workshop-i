@@ -20,35 +20,24 @@ class SelectToTrade extends Component {
                 </div>
                 <div className="cards">
                     <ProductCard
-                        imgLink="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
+                        imgLink="/rent/rent1.jpg"
                         name="Great shirt 1"
                         star={5}
                         href="/selecttotradenoti"
                     />
                     <ProductCard
-                        imgLink="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
+                        imgLink="/rent/rent2.jpg"
                         name="Great shirt 2"
                         star={4}
                         href="/selecttotradenoti"
                     />
                     <ProductCard
-                        imgLink="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
+                        imgLink="/rent/rent3.jpg"
                         name="Great shirt 2"
                         star={3}
                         href="/selecttotradenoti"
                     />
-                    <ProductCard
-                        imgLink="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
-                        name="Great shirt 2"
-                        star={2}
-                        href="/selecttotradenoti"
-                    />
-                    <ProductCard
-                        imgLink="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
-                        name="Great shirt 2"
-                        star={1}
-                        href="/selecttotradenoti"
-                    />
+                   
                 </div>
                 <div className="page">
                     <button>ยืนยัน</button>

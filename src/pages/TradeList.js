@@ -21,35 +21,24 @@ class TradeList extends Component {
                 </div>
                 <div className="cards">
                 <ProductCard
-                        imgLink="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
+                        imgLink="/Trade/Trade1.png"
                         name="Great shirt 1"
                         star={5}
                         href="/tradedetail"
                     />
                     <ProductCard
-                        imgLink="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
+                        imgLink="/Trade/Trade2.png"
                         name="Great shirt 2"
                         star={4}
                         href="/tradedetail"
                     />
                     <ProductCard
-                        imgLink="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
+                        imgLink="/Trade/Trade3.png"
                         name="Great shirt 3"
                         star={3}
                         href="/tradedetail"
                     />
-                    <ProductCard
-                        imgLink="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
-                        name="Great shirt 4"
-                        star={2}
-                        href="/tradedetail"
-                    />
-                    <ProductCard
-                        imgLink="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
-                        name="Great shirt 5"
-                        star={1}
-                        href="/tradedetail"
-                    />
+                   
                 </div>
                 <div className="page">
                     <button className ="btn">ย้อนกลับ</button>
