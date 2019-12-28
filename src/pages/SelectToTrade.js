@@ -40,8 +40,7 @@ class SelectToTrade extends Component {
                     <ProductCard />
                 </div>
                 <div className="page">
-                    <button>ย้อนกลับ</button>
-                    <button>ถัดไป</button>
+                    <button>ยืนยัน</button>
                 </div>
 
             </div>

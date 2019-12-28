@@ -16,19 +16,21 @@ class Card extends React.Component {
                     {/* Normal Demo*/}
                     <div className="column">
                         {/* Post*/}
-                        <div className="post-module">
-                            {/* Thumbnail*/}
-                            <div className="thumbnail">
-                                <img src={this.props.imgLink} />
+                        <a href={this.props.href}>
+                            <div className="post-module">
+                                {/* Thumbnail*/}
+                                <div className="thumbnail">
+                                    <img src={this.props.imgLink} />
+                                </div>
+                                {/* Post Content*/}
+                                <div className="post-content">
+                                    <div className="category">{this.props.category}</div>
+                                    <h1 className="title">{this.props.title}</h1>
+                                    <h2 className="sub_title">{this.props.subTitle}</h2>
+                                    <p className="description">{this.props.description}</p>
+                                </div>
                             </div>
-                            {/* Post Content*/}
-                            <div className="post-content">
-                                <div className="category">{this.props.category}</div>
-                                <h1 className="title">{this.props.title}</h1>
-                                <h2 className="sub_title">{this.props.subTitle}</h2>
-                                <p className="description">{this.props.description}</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
 

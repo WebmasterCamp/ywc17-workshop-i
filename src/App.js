@@ -8,6 +8,8 @@ import TradeDetail from './pages/TradeDetail'
 import SelectToTrade from './pages/SelectToTrade'
 import SelectToTradeNoti from './pages/SelectToTradeNoti'
 import Notification from './pages/Notification'
+import Content1 from './pages/Content1'
+import Content2 from './pages/Content2'
 import {
   BrowserRouter as Router,
   Switch,
@@ -46,7 +48,12 @@ export default function App() {
           <Route path="/selecttotradenoti">
             <SelectToTradeNoti/>
           </Route>
-
+          <Route path="/content1">
+            <Content1/>
+          </Route>
+          <Route path="/content2">
+            <Content2/>
+          </Route>
           <Route path="/">
             <Home />
           </Route>
