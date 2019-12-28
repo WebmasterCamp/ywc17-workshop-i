@@ -32,7 +32,7 @@ class HeaderLoggedIn extends React.Component {
                     <div className="collapse navbar-collapse d-sm-flex  justify-content-sm-end" id="navbarSupportedContent">
                         <ul className="navbar-nav d-sm-flex flex-sm-row align-items-sm-end">
                             <li className="nav-item">
-                                <a className="nav-link" href="#">บทความ</a>
+                                <a className="nav-link" href="/loggedin">บทความ</a>
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
