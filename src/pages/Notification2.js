@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import './Notification.scss';
 import Footer from '../components/Footer'
+import HeaderLoggedIn from '../components/HeaderLoggedIn'
 
 class Notification2 extends Component {
     constructor(props) {
@@ -14,6 +15,8 @@ class Notification2 extends Component {
     render() {
         return (
             <div>
+                
+                <HeaderLoggedIn/>
                 <div className = "notification" id="notification">
                 <div className="container"> 
                     <h1>ยินดีด้วย การแลกเปลี่ยนสำเร็จ</h1>
