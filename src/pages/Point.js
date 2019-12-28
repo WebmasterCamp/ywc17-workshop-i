@@ -34,8 +34,9 @@ class Point extends React.Component {
                         <a href="/tradelist"><button className="btn">ย้อนกลับ</button></a>
                         <a href="/home"><button className="btn">กลับ่สู่หน้าหลัก</button></a>
                     </div>
-                    <Footer />   
+                    
             </div>
+            <Footer />   
           </div>
             
 

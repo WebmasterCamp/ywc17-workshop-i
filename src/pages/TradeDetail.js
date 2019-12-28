@@ -31,7 +31,7 @@ class TradeDetail extends Component {
                             <img src="" />
                             <p className = "productRank">Supakorn</p>
                             <p className = "productRank">
-                                <span>
+                                gi<span>
                                 <img src="/star.svg"></img>
                                 <img src="/star.svg"></img>
                                 <img src="/star.svg"></img>

@@ -13,7 +13,8 @@ class Notification2 extends Component {
 
     render() {
         return (
-            <div className = "notification" id="notification">
+            <div>
+                <div className = "notification" id="notification">
                 <div className="container"> 
                     <h1>ยินดีด้วย การแลกเปลี่ยนสำเร็จ</h1>
                     <h3>คุณสามารถทำการจัดส่งสินค้าไปที่</h3>
@@ -25,8 +26,8 @@ class Notification2 extends Component {
                     <a href="/point"><button className="btn btn-success">ได้รับสินค้า</button></a>
                     </div>
                 </div>
-               
-              <Footer/>
+            </div>
+            <Footer/>
             </div>
         )
     }

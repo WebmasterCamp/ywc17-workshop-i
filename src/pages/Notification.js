@@ -14,7 +14,8 @@ class Notification extends Component {
 
     render() {
         return (
-            <div className = "notification" id="notification">
+            <div>
+                     <div className = "notification" id="notification">
                 <div className="container"> 
                     <h1>ยินดีด้วย การแลกเปลี่ยนสำเร็จ</h1>
                     <h3>คุณสามารถทำการจัดส่งสินค้าไปที่</h3>
@@ -26,8 +27,8 @@ class Notification extends Component {
                     <button className="btn  btn-secondary disabled">ได้รับสินค้า</button>
                     </div>
                 </div>
-               
-              <Footer/>
+            </div>
+            <Footer/>
             </div>
         )
     }
