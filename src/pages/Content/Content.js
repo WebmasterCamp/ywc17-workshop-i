@@ -17,13 +17,6 @@ class Content extends React.Component {
     }
 
     render() {
-        const selections = [
-            "seal",
-            "eggs",
-            "humor",
-            "prefer",
-            "good",
-        ]
         return (
             <div id="content">
                 <Ads/>

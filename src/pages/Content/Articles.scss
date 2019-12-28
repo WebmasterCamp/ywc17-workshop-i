@@ -1,6 +1,13 @@
 #articles{
+    h1{
+        font-size: 41px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
     .cards{
         display: inline-flex;
         flex-flow: row wrap;
+        width: 100%;
     }
 }
