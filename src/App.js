@@ -12,6 +12,7 @@ import Content1 from './pages/Content1'
 import Content2 from './pages/Content2'
 import Content3 from './pages/Content3'
 import Content4 from './pages/Content4'
+import Point from './pages/Point'
 import {
   BrowserRouter as Router,
   Switch,
@@ -24,8 +25,8 @@ export default function App() {
     <Router>
       <div>
         <Switch>
-          
-        <Route path="/term">
+
+          <Route path="/term">
             <Term />
           </Route>
           <Route path="/tradelist">
@@ -41,26 +42,31 @@ export default function App() {
             <Customization />
           </Route>
           <Route path="/register">
-            <RegisterForm/>
+            <RegisterForm />
           </Route>
           <Route path="/selecttotrade">
-            <SelectToTrade/>
+            <SelectToTrade />
+          </Route>
+
+          <Route path="/selecttotradenoti">
+            <SelectToTradeNoti />
           </Route>
           
-          <Route path="/selecttotradenoti">
-            <SelectToTradeNoti/>
-          </Route>
           <Route path="/content1">
-            <Content1/>
+            <Content1 />
           </Route>
           <Route path="/content2">
-            <Content2/>
+            <Content2 />
           </Route>
           <Route path="/content3">
-            <Content3/>
+            <Content3 />
           </Route>
           <Route path="/content4">
-            <Content4/>
+            <Content4 />
+          </Route>
+
+          <Route path="/point">
+            <Point />
           </Route>
           <Route path="/">
             <Home />
