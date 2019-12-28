@@ -10,20 +10,29 @@ class ProductCard extends React.Component {
 
         }
     }
+    star(number) {
+        let star = ""
+        for (var i = 0; i < number; i++) {
+            star = star + '*'
+        }
+        return star
+    }
     render() {
         return (
+
             <div id="productCard">
                 <div class="container page-wrapper">
                     <div class="page-inner">
                         <div class="row">
                             <div class="el-wrapper">
                                 <div class="box-up">
-                                    <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="" />
+
+                                    <img class="img" src={this.props.imgLink} alt="" />
                                     <div class="img-info">
                                         <div class="info-inner">
 
                                         </div>
-                                        <div class="a-size">I feel like Pablo</div>
+                                        <div class="a-size">{this.props.name}</div>
                                     </div>
                                 </div>
 
@@ -33,7 +42,9 @@ class ProductCard extends React.Component {
                                     </div>
 
                                     <a class="cart" href="#">
-                                        <span class="price">*****</span>
+                                        <span class="price">
+                                            {this.star(this.props.star)}
+                                        </span>
                                         <span class="add-to-cart">
                                             <span class="txt">See detail</span>
                                         </span>
