@@ -12,10 +12,10 @@ class SellingMenu extends React.Component {
             <div id="Header">
                 <p className = "what-looking">คุณกำลังมองหาอะไร</p>
                 <div className="choice-btn">
-                    <button className="option-btn">Buy</button>
-                    <button className="option-btn">Rent</button>
+                    <button className="option-btn">ซื้อ</button>
+                    <button className="option-btn">เช่า</button>
                     <a href="/tradelist">
-                        <button className="option-btn">Trade</button>
+                        <button className="option-btn">แลกเปลี่ยน</button>
                     </a>
                 </div>
             </div>

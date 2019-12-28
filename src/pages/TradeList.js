@@ -20,12 +20,11 @@ class TradeList extends Component {
                     <input class="form-control" type="text" placeholder="Search" aria-label="Search" />
                 </div>
                 <div className="cards">
-                    <ProductCard
+                <ProductCard
                         imgLink="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
                         name="Great shirt 1"
                         star={5}
                         href="/tradedetail"
-
                     />
                     <ProductCard
                         imgLink="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
@@ -33,14 +32,24 @@ class TradeList extends Component {
                         star={4}
                         href="/tradedetail"
                     />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
+                    <ProductCard
+                        imgLink="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
+                        name="Great shirt 3"
+                        star={3}
+                        href="/tradedetail"
+                    />
+                    <ProductCard
+                        imgLink="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
+                        name="Great shirt 4"
+                        star={2}
+                        href="/tradedetail"
+                    />
+                    <ProductCard
+                        imgLink="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
+                        name="Great shirt 5"
+                        star={1}
+                        href="/tradedetail"
+                    />
                 </div>
                 <div className="page">
                     <button className ="btn">ย้อนกลับ</button>

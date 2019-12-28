@@ -31,9 +31,9 @@ class Header extends React.Component {
                                     บริการ
                             </a>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a className="dropdown-item" href="#">Buy</a>
-                                    <a className="dropdown-item" href="#">Rent</a>
-                                    <a className="dropdown-item" href="#">Trade</a>
+                                    <a className="dropdown-item" href="#">ซื้อ</a>
+                                    <a className="dropdown-item" href="#">เช่า</a>
+                                    <a className="dropdown-item" href="#">แลกเปลี่ยน</a>
                                 </div>
                             </li>
                             <li className="nav-item">

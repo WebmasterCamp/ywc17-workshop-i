@@ -19,12 +19,11 @@ class SelectToTrade extends Component {
                     <input class="form-control" type="text" placeholder="Search" aria-label="Search" />
                 </div>
                 <div className="cards">
-                    <ProductCard
+                <ProductCard
                         imgLink="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
                         name="Great shirt 1"
                         star={5}
                         href="/selecttotradenoti"
-                        
                     />
                     <ProductCard
                         imgLink="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
@@ -32,14 +31,24 @@ class SelectToTrade extends Component {
                         star={4}
                         href="/selecttotradenoti"
                     />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
+                    <ProductCard
+                        imgLink="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
+                        name="Great shirt 2"
+                        star={3}
+                        href="/selecttotradenoti"
+                    />
+                    <ProductCard
+                        imgLink="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
+                        name="Great shirt 2"
+                        star={2}
+                        href="/selecttotradenoti"
+                    />
+                    <ProductCard
+                        imgLink="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
+                        name="Great shirt 2"
+                        star={1}
+                        href="/selecttotradenoti"
+                    />
                 </div>
                 <div className="page">
                     <button>ย้อนกลับ</button>
