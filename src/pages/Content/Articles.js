@@ -46,10 +46,11 @@ class Articles extends React.Component {
                         imgLink={"https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg"}
                     />
                 </div>
-
             </div>
         )
     }
 }
 
 export default Articles;
+
+
