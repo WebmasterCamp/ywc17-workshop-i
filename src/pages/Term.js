@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import './Term.scss';
 
 class Term extends Component {
     constructor(props) {
@@ -7,8 +8,9 @@ class Term extends Component {
 
     render() {
         return (
-            <div id="Term">
-                <h1 className="d-flex flex-row justify-content-center">Term and Condition</h1>
+            <div className = "condition-container" id="Term">
+                <div className = "condition-box">
+                <h1 className="d-flex flex-row justify-content-center">ข้อกำหนดและเงื่อนไข</h1>
                 <div  className="d-flex flex-row justify-content-center">
                     <p>
                          1.การลงทะเบียน
@@ -33,7 +35,8 @@ class Term extends Component {
                      </label>
                 </div>
                 <div className="d-flex flex-row justify-content-center">
-                    <button className="btn btn-success">ไปต่อ</button>
+                    <button className="btn">ไปต่อ</button>
+                </div>
                 </div>     
             </div>
         )

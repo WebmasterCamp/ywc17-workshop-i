@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Prompt-Light';
+  src: url('../static/fonts/Prompt-Light.woff2') format('woff2'),
+    url('../static/fonts/Prompt-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Prompt-Medium';
+  src: url('../static/fonts/Prompt-Medium.woff2') format('woff2'),
+    url('../static/fonts/Prompt-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Prompt';
+  src: url('../static/fonts/Prompt-Regular.woff2') format('woff2'),
+    url('../static/fonts/Prompt-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'CSPraJad-Bold';
+  src: url('../static/fonts/CSPraJad-bold.woff2') format('woff2'),
+    url('../static/fonts/CSPraJad-bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'CSPraJad';
+  src: url('../static/fonts/CSPraJad.woff2') format('woff2'),
+    url('../static/fonts/CSPraJad.woff') format('woff');
+}
+
+.font-prompt-light {
+  font-family: 'Prompt-Light';
+}
+
+.font-prompt-medium {
+  font-family: 'Prompt-Medium';
+}
+
+.font-prompt {
+  font-family: 'Prompt';
+}
+
+.font-montserrat {
+  font-family: 'Montserrat';
+}
+
+.font-montserrat-extra-light {
+  font-family: 'Montserrat-ExtraLight';
+}
+
+.font-montserrat-semi-bold {
+  font-family: 'Montserrat-SemiBold';
+}
+
+.font-CSPrajad-bold {
+  font-family: 'CSPraJad-Bold';
+}
+
+.font-CSPrajad {
+  font-family: 'CSPraJad';
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  &:hover {
+    box-shadow: none;
+    outline: none;
+  }
+  &:focus {
+    box-shadow: none;
+    outline: none;
+  }
+}

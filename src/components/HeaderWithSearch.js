@@ -1,5 +1,4 @@
 import React from "react";
-import './HeaderWithSearch.scss'
 
 class HeaderWithSearch extends React.Component {
     constructor(props) {
