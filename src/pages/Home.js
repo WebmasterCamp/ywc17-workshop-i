@@ -6,9 +6,6 @@ import Content from '../pages/Content/Content'
 class Home extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {
-
-        }
     }
     render() {
         return (
