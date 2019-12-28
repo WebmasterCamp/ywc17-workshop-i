@@ -19,20 +19,18 @@ class Header extends React.Component {
     render() {
         return (
             // Todo: fix responsive of header
-            <div id="Header">
+            <div id="header">
                 <nav className="navbar navbar-expand-lg navbar-light bg-light" >
                     <a className="navbar-brand" href="#" id="logo">
-                        {/* Logo Image */}
-                        <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" className="d-inline-block align-top" alt="" />
-                        Out-Fit
+                        <img src="/logo.svg" width="150" height="30" className="d-inline-block align-top" alt="" />
                 </a>
                 
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
-                    <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
-                        <ul className="navbar-nav d-flex flex-row align-items-end">
+                    <div className="collapse navbar-collapse d-sm-flex  justify-content-sm-end" id="navbarSupportedContent">
+                        <ul className="navbar-nav d-sm-flex flex-sm-row align-items-sm-end">
                             <li className="nav-item">
                                 <a className="nav-link" href="#">Content</a>
                             </li>
@@ -43,7 +41,6 @@ class Header extends React.Component {
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a className="dropdown-item" href="#">Buy</a>
                                     <a className="dropdown-item" href="#">Rent</a>
-                                    {/* <div className="dropdown-item"></div> */}
                                     <a className="dropdown-item" href="#">Trade</a>
                                 </div>
                             </li>

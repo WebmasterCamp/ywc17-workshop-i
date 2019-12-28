@@ -4,6 +4,7 @@ import Term from './pages/Term';
 import Customization from './pages/Customization';
 import RegisterForm from './pages/RegisterForm';
 import TradeList from './pages/TradeList'
+import TradeDetail from './pages/TradeDetail'
 import {
   BrowserRouter as Router,
   Switch,
@@ -23,10 +24,13 @@ export default function App() {
           <Route path="/tradelist">
             <TradeList />
           </Route>
+          <Route path="/tradedetail">
+            <TradeDetail />
+          </Route>
           <Route path="/customization">
             <Customization />
           </Route>
-          <Route path="/registeration">
+          <Route path="/register">
             <RegisterForm/>
           </Route>
           <Route path="/">
